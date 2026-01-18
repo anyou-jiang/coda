@@ -18,6 +18,6 @@ print("Label shape:", labels.shape)  # Should print: torch.Size([10000])
 print("First 10 labels:", labels[:10])
 
 # Save in the format CODA expects
-torch.save(labels, f"{DATA_ROOT}/cifar10_5592_label.pt")
+torch.save(labels, f"{DATA_ROOT}/cifar10_5592_labels.pt")
 
-print("Saved to:", f"{DATA_ROOT}/cifar10_5592_label.pt")
+print("Saved to:", f"{DATA_ROOT}/cifar10_5592_labels.pt")
